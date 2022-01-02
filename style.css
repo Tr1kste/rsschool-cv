@@ -1,3 +1,12 @@
 body{
-    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.title{
+    font-family: 'Cinzel', serif;
+    font-size: 34px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
 }
