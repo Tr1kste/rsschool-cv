@@ -11,13 +11,13 @@
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins:wght@200&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
     <!--/Fonts-->
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-flex">
         <header>
             <nav class="nav">
                 <ul class="nav-list">
@@ -31,16 +31,49 @@
                     <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
                 </ul>
             </nav>
+            <h1 class="title">Andrew Panko</h1>
+            <h2 class="subtitle">Junior Frontend Developer</h2>
         </header>
-        <main>
-            <h1 class="title">My CV code</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem enim excepturi maxime error debitis
-                blanditiis
-                animi facilis, nesciunt ab quasi saepe ullam dicta sed illo modi est optio aut a?</p>
-            <h2></h2>
-        </main>
-        <footer>
 
+        <main>
+            <div class="main-cont">
+                <div class="column-1">
+                    <div class="photo"><img src="assets/img/avatar.png" alt="photo"></div>
+                    <section class="contacts" id="contacts">
+                        <h2 class="contacts-title">Contacts</h2>
+                    </section>
+                    <section class="english" id="english">
+
+                    </section>
+                    <section class="education" id="education">
+
+                    </section>
+
+                    <section class="skills" id="slills"></section>
+
+                </div>
+                <div class="column-2">
+                    <section class="summary" id="summary"></section>
+                    <section class="courses" id="courses">
+
+                    </section>
+                    <section class="code" id="code"></section>
+                    <section class="projects" id="projects">
+
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <a class="my-github" href="https://github.com/Tr1kste">
+                <img class="github-icon" src="./icons/github.svg" alt="Github Icon" width="26" height="26">
+                <p>Visit my GitHub</p>
+            </a>
+            <p>© 2022</p>
+            <a href="https://rs.school/js/">
+                <img src="./icons/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+            </a>
         </footer>
     </div>
 </body>
