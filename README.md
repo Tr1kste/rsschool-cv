@@ -1,3 +1,2 @@
-https://Tr1kste.github.io/rsschool-cv/cv
-
+Deploy:
 https://Tr1kste.github.io/rsschool-cv/
